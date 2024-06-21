@@ -1,7 +1,15 @@
 function setup() {
-    createCanvas(400, 400);
-  }
-  
-  function draw() {
-    background(220);
-  }
+  createCanvas (700, 700);
+     background("pink");
+ 
+}
+
+function draw() {
+ 
+ stroke("purple");
+ fill("red");
+ 
+ if(mouseIsPressed){
+   circle(mouseX, mouseY,12, 12 );
+ }    
+}
